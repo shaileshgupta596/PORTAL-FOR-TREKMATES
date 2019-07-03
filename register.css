@@ -1,0 +1,322 @@
+/*html{
+	font-family: 'Open Sans','Roboto';
+}
+*/
+body{
+ 	
+ 	height: 100vh;
+ 	overflow-x: hidden;
+ }
+.details{
+	position: relative;
+	float: left;
+	margin-left:20%;
+	margin-right: 20%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	
+	/*background-color: white;*/
+	border-color: white;
+	border-width: 0.5px;
+	border-radius: 0px;
+	border-style: solid;
+	font-family: 'Open Sans','Roboto';
+	font-size: 25px;
+	color:rgb(26, 115, 232);
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/*opacity: 0.4;*/
+	
+	z-index: 1;
+	
+	overflow-x: hidden;
+
+}
+#register_text
+{
+	display: block;
+	align-content: center;
+	text-align:center;
+	font-size: 30px;
+	color:rgb(26, 115, 232);
+	margin: auto;
+
+}
+.name{
+	display: block;
+	
+	margin-right: 15%;
+}
+ .fn{
+ 	position: relative;
+	left:50px;
+ 	float:left;
+	width: 25%;
+ }
+ .mn{
+ 	position: relative;
+	left:125px;
+ 	float:left;
+	width: 25%;
+ }
+ .ln{
+ 	position: relative;
+	left:200px;
+ 	float:left;
+	width: 25%;
+ }
+ .sentence{
+ 	display: block;
+ 	font-size: 25px;
+ }
+ .phone{
+
+ 	position: relative;
+	left:50px;
+	/*top: 20px;*/
+ 	float:left;
+	width: 25%;
+ }
+ .college_org{
+ 	
+ 	position: relative;
+	left:125px;
+	/*top: 20px;*/
+	float:left;
+ 	width: 75%;
+ }
+ .email,.password{
+ 	position: relative;
+	left:50px;
+ 	float:left;
+	width: 50%;
+ }
+ .otp,.re-password{
+	position: relative;
+	left:50px;
+ 	float:left;
+	width: 50%;
+ }
+ .address,.user_type,.gender{
+	position: relative;
+	left:50px;
+ 	float:left;
+ 	width: 100%;
+ }
+ .state{
+ 	position: relative;
+ 	left: 50px;
+ 	float: left;
+ 	width:50%;
+ }
+ .city{
+ 	position: relative;
+ 	left: 100px;
+ 	float: left;
+ 	width:50%;
+ }
+ .submit{
+ 	position: relative;
+ 	left: 40%;
+ }
+ input [type="radio"]{
+ 	margin: 0 10px 0 10px;
+ }
+ .box{
+ 	/*border-radius: 5px;*/
+ 	border-style: solid;
+ 	font-size:20px ;
+ 	height: 25px;
+ 	width: 70%;
+ 	border-color: black;
+ 	border-left:none;
+ 	border-right:none;
+ 	border-top:none;
+ }
+ input[type="email"]
+ {
+ 	width: 90%;
+ }
+ #cllg_org_box
+ {
+ 	width: 70%;
+ }
+ #address_box
+ {
+ 	width: 70%;
+ }
+ .box:focus{
+ 	border-color: blue;
+ 	/*transform-origin: 283px center 0px;*/
+ }
+ 
+ .select_box{
+ 	border-radius: 5px
+ 	border-style: solid;
+ 	font-size:20px ;
+ 	height: 30px;
+ 	width: 70%;
+ }
+ .btn{
+ 	border-radius: 5px;
+ 	border-style: solid;
+ 	border-color: black;
+ 	background-color: white;
+ 	font-size:20px ;
+ 	height: 30px;
+ 	width: 100px;
+ }
+ .select #box{
+ 	height: 30px;
+ 	width: 60%;
+ }
+ #clear{
+ 	clear: both;
+ }
+ 
+ 
+ label{
+ 
+ 	font-size: 1em;
+ 	
+ 	animation-name: example;
+ 	animation-timing-function:ease-in;
+    animation-duration: 10s;
+ }
+ 
+ :focus::placeholder{
+	opacity: 0;
+ }
+ input{
+ 	background-color: transparent;
+ }
+ 
+.error{
+ 	display: none;
+ 	color: red;
+ 	visibility: visible;
+ 	font-size: 1em;
+ }
+ .php_error{
+ 	display: block;
+ 	font-size: 1em;
+ 	color: red;
+ 	visibility: visible;
+ }
+
+ 
+ ::placeholder{
+ 	opacity: 0;
+ }
+
+
+
+ /**********************************************************************************/
+ @media only screen and (max-width: 768px) 
+{
+	#clear{
+ 		clear: both;
+	 }
+
+	 #body{
+	 	
+	 	height: 100vh;
+	 }
+	 form{
+	 	position: relative;
+	 }
+
+	.details
+	{
+		border-style: none;
+		box-shadow: 0 0 0 0;
+		/*
+		float: left;
+		left: 20%;
+		width: 100%;
+		*/
+		position: absolute;
+		margin-top: 1em;
+		margin-left: 0px;
+		margin-right: 0px;
+		
+	    top: 10%;
+	    left: 50%;
+	    -moz-transform: translateX(-50%) translateY(-0%);
+	    -webkit-transform: translateX(-50%) translateY(-0%);
+	    transform: translateX(-50%) translateY(-0%);
+	}
+	#register_text
+	{
+		
+		display: inline-block;
+		text-align:center;
+		font-size: 28px;
+		color:rgb(26, 115, 232);
+		margin-left: 40%;
+
+	}
+	.name
+	{
+		 display: block;
+		 width: 100%;
+	}
+	.fn,.mn,.ln,.user_type,.gender,.address,.city_state,.passwords
+	{
+		display: block;
+		float: left;
+		left: 0;
+		width: 100%;
+	}
+	.fn,.mn,.ln
+	{
+		margin-top: 1em;
+	}
+	#address_box
+	{
+		border-style: solid;
+		width: 100%;
+	}
+
+	
+	
+	.sentence
+	{
+		float: left;
+		left: 0;
+		margin-left: 0;
+	}
+	input [type="radio"]
+	{
+ 		margin: 0 0 0 0;
+ 	}
+
+ 	.email_otp,.phone_college
+ 	{
+ 		display: block;
+ 		float:left; 
+ 		left:0;
+ 		width: 100%;
+ 	}
+ 	.email,.otp,.phone,.college_org,.city,.state,.password,.re-password
+ 	{
+ 		display: block;
+ 		float:left; 
+ 		left:0;
+ 		width: 100%;
+ 	}
+    
+    .box
+    {
+    	width: 100%;
+    }
+    input[type="email"],#cllg_org_box,#address_box
+    {
+    	width: 100%;
+    }
+    
+	 
+}
+
+
+
+/************************************************************************************/

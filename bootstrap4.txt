@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/49022773/ml-auto-is-not-pushing-navbar-links-to-the-right
+https://stackoverflow.com/questions/47427696/mx-auto-not-moving-element-to-centre
+https://stackoverflow.com/questions/40497288/how-to-create-a-fixed-sidebar-layout-with-bootstrap-4

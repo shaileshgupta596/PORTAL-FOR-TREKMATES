@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Registeration Form</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="register.css">
+	
+</head>
+<body id="body">
+	<div class="profile_head">
+			<div class="head_statement" align="center" style="position:absolute;width:400px;right: 27%;">
+			<h1 align="center" style="color:white;
+			position:absolute;
+			font-size: 20px;">Welcome, To TrekMates.com</h1>
+			</div>
+
+			<div class="navbar_contentprofile">
+				<ul>
+					<li><a href="#"><b>	Home</b></a></li>
+					<li><a href="#"><b>Adventure</b></a></li>
+					<li><a href="#"><b>Search Location</b></a></li>
+					<li><a href="#"><b>Contact Us</b></a></li>
+					<li><a href="#"><b>About</b></a></li>
+				</ul>
+			</div>
+			<div class="login_register_container">
+			<button class="loginbutton" type="submit" value="login" >LOGIN</button>
+			<button class="regbutton" type="submit" value="registration">SIGNUP</button>
+			</div>
+	</div>
+		<hr>
+	<div id="clear"></div>
+	<form>
+		<div class="details">
+			<p style="text-align:center;font-size: 30px;color:rgb(26, 115, 232);">Register</p><br/>
+			<div class="name">
+				<div class="fn" >
+					<label id="first" >First Name</label><br/>
+					<input class="box" id="first_name_box" type="text" placeholder="First Name" onfocusin="hide(id,'first')" onfocusout="show(id,'first')"/>
+				</div>
+				<div class="mn">
+					<label id="middle">Middle Name</label><br/>
+					<input class="box" id="middle_name_box" type="text" placeholder="Middle Name" onfocusin="hide(id,'middle')" onfocusout="show(id,'middle')"/>
+				</div>
+				<div class="ln">
+					<label id="last">Last Name</label><br/>
+					<input class="box" id="last_name_box" type="text" placeholder="Last Name" onfocusin="hide(id,'last')" onfocusout="show(id,'last')"/>
+				</div>
+			</div>
+
+			<div id="clear"></div>
+			<div class="user_type">
+				<br/>
+				<span class="sentence">I am a</span>
+				<br/>
+				<input type="radio" name="type" value="t">Trekker
+				<input type="radio" name="type" value="o">Organizer
+			</div>
+
+			<div class="phone_college">
+				<div class="phone">
+					<br/>
+					<label id="phn">Phone Number</label>
+					<br/>
+					<input class="box" id="phn_box" type="text" placeholder="Phone No." onfocusin="hide(id,'phn')" onfocusout="show(id,'phn')"/>
+				</div>
+
+				<div class="college_org">
+					<br/>
+					<label id="cllg_org">College/Org.</label>
+					<br/>
+					<input class="box" id="cllg_org_box" style="width: 70%;" type="text" placeholder="College/Org." onfocusin="hide(id,'cllg_org')" onfocusout="show(id,'cllg_org')"/>
+				</div>
+			</div>
+
+			<div id="clear"></div>
+
+			<div class="email_otp">
+				<div class="email">
+					<br/>
+					<label id="email-id">Email ID</label>
+					<br/>
+					<input class="box" id="email_box" style="width: 90%;" type="email" placeholder="EMAIL-ID" onfocusin="hide(id,'email-id')" onfocusout="show(id,'email-id')" />
+					<br/>
+					
+					<button id="btn" style="margin:4px;">Verify</button>
+				</div>
+				<div class="otp">
+					<br/>
+					<label id="otp">OTP</label>
+					<br/>
+					<input class="box" id="otp_box" type="text" placeholder="OTP" onfocusin="hide(id,'otp')" onfocusout="show(id,'otp')"/>
+				</div>
+			</div>
+
+			<div id="clear"></div>
+
+			<div class="address" >
+				<br/>
+				<label style="visibility: visible; color:rgb(26, 115, 232);font-size:25px">Address</label>
+				<br/>
+				<textarea class="box" id="address_box" style="height: 60%;width: 70% "></textarea>				
+			</div>
+
+			<div id="clear"></div>
+
+			<div class="select city_state">
+				<div class="city">
+					<br/>
+					<label style="visibility:visible; color:rgb(26, 115, 232);font-size:25px">City</label>
+					<br/>
+					<select class="select_box"  id="city_box">
+						<option>Thane</option>
+						<option>Mumbai</option>
+						<option>Panvel(Gaon)</option>
+					</select>	
+				</div>
+				<div class="state">
+					<br/>
+					<label style="visibility:visible; color:rgb(26, 115, 232);font-size:25px">State</label>
+					<br/>
+					<select class="select_box" id="state_box">
+						<option>Maharashtra</option>
+						<option>Goa</option>
+						<option>UP</option>
+					</select>	
+				</div>					
+			</div>
+
+			<div id="clear"></div>
+
+			
+			<div class="gender">
+				<br/>
+				<span class="sentence">Gender:</span>
+				<br/>
+				<input type="radio" name="gender" value="M">Male
+				<input type="radio" name="gender" value="F">Female
+
+			</div>
+
+			<div id="clear"></div>
+
+			<div class="passwords">
+				<div class="password">
+					<br/>
+					<label id="pwd">Password</label>
+					<br/>
+					<input class="box" id="pwd_box" type="password" placeholder="Password" onfocusin="hide(id,'pwd')" onfocusout="show(id,'pwd')"/>
+				</div>
+				<div class="re-password">
+					<br/>
+					<label id="re-pwd">Confirm Password</label>
+					<br/>
+					<input class="box" id="re-pwd_box" type="password" placeholder="Confirm Password" onfocusin="hide(id,'re-pwd')" onfocusout="show(id,'re-pwd')"/>
+				</div>
+			</div>
+
+			<div id="clear"></div>
+
+			<div class="submit">
+				<br/>
+				<button id="btn">Submit</button>
+			</div>
+
+			<br/>
+		</div>
+		
+	</form>
+</body>
+<script type="text/javascript" src="register.js"></script>
+</html>
+			

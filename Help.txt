@@ -1,0 +1,149 @@
+Some Elements left outside the div block
+https://stackoverflow.com/questions/2062258/floating-elements-within-a-div-floats-outside-of-div-why
+https://www.w3schools.com/css/css_overflow.asp
+
+How to fit image in background
+https://stackoverflow.com/questions/19925075/fit-website-background-image-to-screen-size
+
+How to make div block opaque
+https://www.google.com/search?q=how+to+make+a+div+block+opaque&ie=utf-8&oe=utf-8&client=firefox-b-ab
+
+
+How to give space between radio button and its text
+https://stackoverflow.com/questions/12294367/html-radio-buttons-add-space-between-the-buttons-from-the-same-groupe
+
+Getting attribute value..
+https://www.w3schools.com/xml/met_element_getattribute.asp
+
+Defining Global Variable
+https://stackoverflow.com/questions/5786851/define-global-variable-in-a-javascript-function
+
+Visibilty of ELEMENT:
+https://www.w3schools.com/cssref/pr_class_visibility.asp
+
+Change font size by JavaScript
+https://stackoverflow.com/questions/5586703/how-to-change-fontsize-by-javascript
+
+how to make input non-editable?
+https://www.w3schools.com/tags/att_input_readonly.asp
+
+How to use Google Roboto text in our page?
+https://www.w3schools.com/howto/tryit.asp?font=Roboto
+
+Animate using JavaScript
+https://www.w3schools.com/howto/howto_js_animate.asp
+
+text-align:center not working in <span>?
+https://stackoverflow.com/questions/44357072/css-text-align-does-not-work/44357245#44357245
+
+** height in % not working for div tags?
+https://stackoverflow.com/questions/31728022/why-is-percentage-height-not-working-on-my-div
+
+*** how to remove white edges around div tag?
+https://stackoverflow.com/questions/9552230/how-do-i-remove-the-white-edges-around-div-tags
+
+div tag is static not expanding no scroll bar?
+overflow: scroll;//adds horizontal bar too
+overflow-y:scroll;//now only vertical bar.
+https://stackoverflow.com/a/31778394/8810517
+Also try to add overflow:scroll in body 
+
+
+anchor tag decoration:
+https://www.w3schools.com/css/tryit.asp?filename=trycss_link_decoration
+
+
+How to pause setInterval in javascript?
+https://stackoverflow.com/questions/21277900/javascript-pausing-setinterval
+
+What is use of Keyword "for" in HTML?
+https://stackoverflow.com/questions/10813592/why-use-the-for-keyword-to-bind-a-label-in-html
+
+
+Difference between visibility and display?
+https://www.w3schools.com/css/tryit.asp?filename=trycss_display
+
+On clicking close Modal not closes.Event Bubbling.
+https://stackoverflow.com/questions/51919256/javascript-style-display-none-not-working-whereas-style-display-visible-wor?answertab=oldest#tab-top
+
+
+% Height not working i.e. image size not changing as per div conatiner it is in.
+https://stackoverflow.com/questions/1622027/percentage-height-html-5-css
+
+Getting Drop Down menu displayed in part of another div.
+https://stackoverflow.com/questions/46642061/dropdown-not-working-when-overflowhidden
+
+Margin Property not working on SPAN tag.
+https://stackoverflow.com/questions/11700985/margin-top-not-working-for-span-element
+
+Closing menu on outer click.
+https://stackoverflow.com/questions/14188654/detect-click-outside-element-vanilla-javascript
+
+
+How to make two side by side divs grow at same rate?
+use their parent container  dispaly:flex;
+
+How to make content occupy 100% screen when contents are less.
+https://stackoverflow.com/a/12043964/8810517
+
+How to make footer remain at same size?
+max-height:4%;  
+
+How to change disabled attribute?
+https://stackoverflow.com/questions/11719961/javascript-remove-disabled-attribute-from-html-input
+
+How to dynamically remove element?
+https://stackoverflow.com/questions/36575161/remove-dynamic-element-with-javascript
+
+appendChild() works only once with createNode()?
+https://stackoverflow.com/questions/8916181/javascript-clonenode-and-appendchild-not-working-as-expected
+Answer: cloneNode() mob=ves the node instead of duplicating.
+
+Remove primary id.
+https://stackoverflow.com/questions/2111291/remove-primary-key-in-mysql
+
+Links not working in a div .
+https://stackoverflow.com/questions/41317893/links-not-working-inside-div
+
+Header gets hidden behind content when position:fixed is used.
+https://stackoverflow.com/questions/10865237/website-header-hiding-behind-content-when-position-is-fixed
+
+A Div pushes other div down.
+because of display:block in both the divs. It shpuld be display:inline-block in both divs
+
+How to open a url in same tab?
+https://stackoverflow.com/questions/8454510/open-url-in-same-window-and-in-same-tab
+https://stackoverflow.com/a/23310200/8810517
+
+How to insert variables in string in Javascript?
+https://stackoverflow.com/questions/3304014/how-to-interpolate-variables-in-strings-in-javascript-without-concatenation
+
+How to check if element is last child of parent?
+https://stackoverflow.com/questions/29611933/how-to-check-if-element-is-last-child-without-jquery
+
+How to change arrow of select?
+https://stackoverflow.com/questions/1895476/how-to-style-a-select-dropdown-with-only-css
+
+How to remove blue outline when a select menu is in focus.
+https://stackoverflow.com/questions/14639638/how-to-remove-border-of-drop-down-list-css/14639698#14639698
+https://stackoverflow.com/questions/20340138/remove-blue-border-from-css-custom-styled-button-in-chrome
+https://stackoverflow.com/questions/16156594/how-to-change-border-color-of-textarea-on-focus
+
+Why isn't mysql saving phone numbers?
+Giving error: Please enter a value less than or equal to 2147483647
+https://stackoverflow.com/questions/22081895/value-being-inserted-as-2147483647-into-database
+
+How to increase the gap between text and underlining in CSS
+https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css/37622323
+
+How can I make text appear on next line instead of overflowing?
+https://stackoverflow.com/questions/3587390/how-can-i-make-text-appear-on-next-line-instead-of-overflowing
+
+How to add class name to element?
+https://stackoverflow.com/questions/507138/how-do-i-add-a-class-to-a-given-element
+
+How to remove a class name?
+simply set the class back to a single defined name d.className = 'originalClass';
+
+How to add ban-circle on hover in disabled anchor?
+https://stackoverflow.com/questions/31898803/how-to-add-ban-circle-on-hover-in-disabled-anchor
