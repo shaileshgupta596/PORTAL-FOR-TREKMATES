@@ -3,7 +3,6 @@
   session_start();
   if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true)
   {
-      
   }
   else
   {
@@ -70,12 +69,19 @@
     display: block;
 }
 
-  </style>
+</style>
 </head>
 <body>
 <nav class="navbar navbar-inverse" style="box-shadow:  0px 3px 10px 0px rgb(0,0,0,0.9); ">
   <div class="container-fluid">
     <div class="navbar-header">
+
+      <div class="head_statement" align="center">
+      <h1 align="center" style="color:white;
+      position:absolute;left:45%;
+      font-size: 20px;"><b>TrekMates.com</b></h1>
+    </div>
+
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -85,11 +91,11 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Adventures</a></li>
-        <li><a href="#">Location</a></li>
-        <li><a href="aboutus/about.php">About us</a></li>
-        <li><a href="contactus/contact.php">Contact us</a></li>
+        <li class="active"><a href="#" style="color:orange;">Home</a></li>
+        <li><a href="#" style="color:orange;">Adventures</a></li>
+        <li><a href="#" style="color:orange;">Location</a></li>
+        <li><a href="aboutus/about.php" style="color:orange;">About us</a></li>
+        <li><a href="contactus/contact.php" style="color:orange;">Contact us</a></li>
       </ul>
     
       <ul class="nav navbar-nav navbar-right">
@@ -97,10 +103,10 @@
           <a href="#">
         <span class="glyphicon glyphicon-user" style="color: white;padding: 5px 10px 5px 10px ;top:5px;font-size: 20px">
         <?php
-  if(isset($_POST["logout_btn"])){
+ /* if(isset($_POST["logout_btn"])){
   header("HTTP/1.1 301 Moved Permanently");
-  header("Location: ../../");
-}
+  header("Location: .");
+}*/
 
   if(isset($_GET['userid'])){
       echo $_GET['userid'];
@@ -140,9 +146,9 @@ $conn->close();
 ?>
         </span></a>
         <div class="dropdown-content">
-          <form method="POST">
+          <!--form method="POST"-->
             <a href="logout.php"><button type="submit" name="logout_btn" style="border: none;background-color: white;">Logout</button></a>
-           
+           <!--/form-->
         </div>
         </div>
       </ul>
@@ -157,12 +163,12 @@ $conn->close();
  	
  	
  		<img src="user1.png" height="120" width="120" style="border-radius: 70px;">
-</form>
+
 
  </div>
   <div class="container text-center">
     <h1 style="color:white;">Trekmates.com</h1>      
-    <p style="color:white;">Welcome, user</p>
+    <p style="color:white;">Welcome,Let's start</p>
   </div>
 </div>
 

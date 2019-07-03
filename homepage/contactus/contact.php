@@ -89,17 +89,17 @@ $conn->close();
 
             <div class="navbar_contentprofile">
                 <ul>
-                    <li><a href="#"><b>Explore</b></a></li>
+                    <li><a href="../../../explorepage/profile1.php"><b>Explore</b></a></li>
                     <li><a href="#"><b>Adventure</b></a></li>
                     <li><a href="#"><b>Search Location</b></a></li>
-                    <li><a href="contactus/contact.php"><b>Contact Us</b></a></li>
-                    <li><a href="#"><b>About</b></a></li>
+                    <li><a href="#"><b>Contact Us</b></a></li>
+                    <li><a href="../aboutus/about.php"><b>About</b></a></li>
                 </ul>
             </div>
             <div class="login_register_container">
-            <form action="login.php">
+            <form action="../../login.php">
             <button class="loginbutton" type="submit" value="login" >LOGIN</button>
-            <form action="register.php">
+            <form action="../../register.php">
             <button class="regbutton" type="submit" value="registration">SIGNUP</button>
             </form>
             </div>

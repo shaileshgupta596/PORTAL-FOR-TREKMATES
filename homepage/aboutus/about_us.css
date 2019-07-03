@@ -66,8 +66,8 @@ body{
 .video{
     margin: 4%;
     width:auto;
-    height: 60vh;
-    background-color: orange;
+    height: 600px;
+    
     position: relative;
 }
 .parallax_container_mobile{

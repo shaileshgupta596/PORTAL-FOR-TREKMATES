@@ -92,17 +92,17 @@ var ki=0;
 
             <div class="navbar_contentprofile">
                 <ul>
-                    <li><a href="#"><b>Explore</b></a></li>
+                    <li><a href="../../../explorepage/profile1.php"><b>Explore</b></a></li>
                     <li><a href="#"><b>Adventure</b></a></li>
                     <li><a href="#"><b>Search Location</b></a></li>
-                    <li><a href="#"><b>Contact Us</b></a></li>
+                    <li><a href="../contactus/contact.php"><b>Contact Us</b></a></li>
                     <li><a href="#"><b>About</b></a></li>
                 </ul>
             </div>
             <div class="login_register_container">
-            <form action="../login/r.php">
+            <form action="../../login.php">
             <button class="loginbutton" type="submit" value="login" >LOGIN</button>
-            <form action="../register/reg.php">
+            <form action="../../register.php">
             <button class="regbutton" type="submit" value="registration">SIGNUP</button>
             </form>
             </div>
@@ -192,6 +192,12 @@ About Us</div>
 <div class="parallax" style="background-image: url(a6.jpg);"></div>
 
 <div class="video">
+	<video  width="800" height="500" controls>
+  		<source src="intp4.mp4" type="video/mp4">
+  			<source src="intp4.ogg" type="video/ogg">
+  		Your browser does not support HTML5 video.
+		</video>
+
 
 </div>
 
@@ -286,9 +292,17 @@ About Us</div>
 
 
 <div class="parallax" style="background-image: url(a6.jpg);">
-    <div class="video">
+	<div class="video">
+		<video  width="400" height="500" controls>
+  		<source src="intp4.mp4" type="video/mp4">
+  			<source src="intp4.ogg" type="video/ogg">
+  		Your browser does not support HTML5 video.
+		</video>
 
-</div>
+	</div>
+    
+    	
+    
 
 </div>
 </div>
