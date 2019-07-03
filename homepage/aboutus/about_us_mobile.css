@@ -1,0 +1,155 @@
+body{
+    height: 100%;
+    margin:2%;
+    font-size: 5vw;
+}
+
+
+.navbar{
+    display: none;
+}
+.mobile{
+    display: inherit;
+}
+.navbar_mobile{
+    display: block;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.navbar_mobile{
+    width:96%;
+    height: auto;
+    background-color: black;
+    padding: 2%;
+    color:whitesmoke;
+    text-align: center;
+}
+
+.header_mobile{
+    padding-top: 10vw;
+}
+
+.log_in_mobile, .sign_up_mobile, .log_in_mobile_2, .sign_up_mobile_2{
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: 4vw;
+    padding: 4%;
+    box-shadow: 2px 5px 50px #FFA500;
+    border: 2px solid orange;
+    border-radius: 5px;
+    width: 30vw;
+}
+
+.log_in_mobile{
+    position: absolute;
+    right: 40vw;
+    top: 4vh;
+}
+
+.sign_up_mobile{
+    position: absolute;
+    right: 5vw;
+    top: 4vh;    
+}
+
+.menu_line{
+    width: 5vh;
+    height: 1vh;
+    display: block;
+    margin: 1vh;
+    background-color: whitesmoke;
+}
+
+.menu_container{
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.log_in_mobile_2{
+    position: absolute;
+    right: 40vw;
+    top: 40vW;
+}
+
+.sign_up_mobile_2{
+    position: absolute;
+    right: 5vw;
+    top: 40vw;    
+}
+
+.parallax_container_mobile{
+    display: inherit;
+    box-shadow: 5px 10px 18px #888888;
+    margin:4%;
+    background-attachment: scroll;
+}
+
+
+
+.parallax_container{
+    display: none;
+}
+
+
+.parallax {
+     
+    height: 60vh;
+    
+    
+}
+
+.header_about_us{    
+    font-size:6vw;
+    display: block;
+    margin:auto;
+    text-align: center;
+    width: 25%;
+    height: 8vw;
+    padding:2%;
+    position: absolute;
+    left:37%;
+    top: 60vh;
+    background-color: azure;
+    color: orange;
+}
+
+.content{    
+    font-size:5vw;
+    display: block;
+    text-align: center;
+    width: 80%;
+    padding:2%;
+    background-color: azure;
+    color: orange;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    
+}
+
+.img{
+    width: 30vw;
+    height: 30vw;
+    background-color: orange;
+    box-shadow: 5px 10px 18px #888888; 
+    position: absolute;
+    left: 7vw;
+    top: 6vh;
+}
+
+.details span{
+    display:block;
+    font-variant: small-caps;
+    text-align: right;
+}
+
+.video{
+    margin: 4%;
+    width:auto;
+    height: 60vh;
+    background-color: orange;
+    position: relative;
+}
+
+

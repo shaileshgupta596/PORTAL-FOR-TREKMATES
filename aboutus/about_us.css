@@ -1,0 +1,112 @@
+body{
+    height: 100%;
+    margin:2%;
+    font-size: 2vw;
+}
+
+.parallax_container{
+    box-shadow: 5px 10px 18px #888888;    
+}
+
+
+.parallax {
+    height: 50vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.content{    
+    font-size:3vw;
+    display: block;
+    margin:auto;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    padding:2%;
+    position: absolute;
+    background-color: azure;
+    color: orange;
+}
+
+.img{
+    width: 30vw;
+    height: 35vh;
+    background-color: orange;
+    box-shadow: 5px 10px 18px #888888; 
+    position: absolute;
+    left: 7vw;
+    top: 5vh;
+}
+
+.navbar{
+    width:96%;
+    height: auto;
+    background-color: black;
+    padding: 2%;
+    color:whitesmoke;
+    text-align: center;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.nav_list{
+    list-style-type: none;
+    display: inline;
+    padding: 2%;
+    background-color: orange;    
+}
+
+.nav_list:hover{
+    box-shadow: 2px 5px 50px #FFA500;
+}
+
+.log_in, .sign_up{
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: 2vw;
+    padding: 2%;
+    box-shadow: 2px 5px 50px #FFA500;
+    border: 2px solid orange;
+    border-radius: 5px;
+    width: 15vw;
+}
+
+.log_in{
+    position: absolute;
+    right: 20vw;
+    top: 6vh;
+}
+
+.sign_up{
+    position: absolute;
+    right: 3vw;
+    top: 6vh;
+    
+}
+
+.details span{
+    display:block;
+    font-variant: small-caps;
+    text-align: right;
+}
+
+.video{
+    margin: 4%;
+    width:auto;
+    height: 60vh;
+    background-color: orange;
+    position: relative;
+}
+.parallax_container_mobile{
+    display: none;
+}
+
+.std{
+    font-size:1.5vw;
+
+}

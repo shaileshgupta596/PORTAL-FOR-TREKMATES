@@ -1,0 +1,80 @@
+body{
+    height: 100%;
+    margin:2%;
+   
+}
+
+.parallax_container{
+    box-shadow: 5px 10px 18px #888888;    
+}
+
+
+.parallax {
+    height: 50vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header_about_us{    
+    font-size:3vw;
+    display: block;
+    margin:auto;
+    text-align: center;
+    width: 25%;
+    height: 4vW;
+    padding:2%;
+    position: absolute;
+    left:37%;
+    background-color: azure;
+    color: orange;
+}
+
+.content{    
+    font-size:3vw;
+    display: block;
+    margin:auto;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    padding:2%;
+    position: absolute;
+    background-color: azure;
+    color: orange;
+}
+
+.img{
+    width: 30vw;
+    height: 35vh;
+    background-color: orange;
+    box-shadow: 5px 10px 18px #888888; 
+    position: absolute;
+    left: 7vw;
+    top: 5vh;
+}
+
+
+
+.details span{
+    display:block;
+    font-variant: small-caps;
+    text-align: right;
+}
+
+.video{
+    margin: 4%;
+    width:auto;
+    height: 60vh;
+    background-color: orange;
+    position: relative;
+}
+.parallax_container_mobile{
+    display: none;
+}
+
+.std{
+    font-size:1.5vw;
+
+}

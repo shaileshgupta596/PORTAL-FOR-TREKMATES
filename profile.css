@@ -1,0 +1,428 @@
+.profile_page{
+	/*background-color: powderblue;*/
+	width:100%;
+	height:100%;
+
+}
+.profile_head{
+	position: relative;
+	width:100%;
+	background-color:black;
+	height:12%;
+	box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+
+}
+.sidebar{
+	height:70%;
+	width: 20%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-radius:10px;
+	margin-top:5px;
+}
+.image_avtar_dropdown{
+	/*background-image: url("male.jpeg");*/
+	border-radius:50px;
+	position: absolute;
+	right:0%;
+	margin:15px 25px 10px 10px;
+}
+.dropdown_btn1{
+	border-radius:50px;
+	border:none;
+	padding:0px;
+	box-shadow: 0px 3px 10px 0px rgb(0,0,0,2.2);
+}
+
+.dropdown_list1{
+	display:none;
+	position:absolute;
+	background-color:white;
+	position: absolute;
+	box-shadow: 0px 3px 20px 0px rgb(0,0,0,0.2);
+	border-radius:10px;
+
+}
+.dropdown_list1  a{
+	background-color:white;
+	padding:4px 40px;
+	position:relative;
+	border:none;
+	display:block;
+	text-decoration: none;/* for removing underline*/
+	border-radius:10px;
+}
+.dropdown_list1 a:hover{
+	background-color: gray;
+}
+.image_avtar_dropdown:hover  .dropdown_list1{
+	display: block;
+	position: relative;
+
+}
+
+
+
+.head_logo {
+	border-radius: 50%;
+	position: absolute;
+	margin-top: 5px;
+	box-shadow: 0px 3px 10px 0px rgb(0,0,0,2.2);
+	padding:0px;
+	left:1%;
+}
+
+
+
+/* css for sidebar*/
+ .menu_items{
+ 	width:270px;
+ 	box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.2);
+ 	border-radius:5px;
+ 	float:left;
+ }
+ .menu_items a{
+ 	display:block;
+ 	padding:15px 30px;
+ 	background-color: white;
+ 	text-decoration: none;
+ 	font-size:;
+ 	font-weight: bold;
+ 	border-radius: 5px;
+ }
+
+ .menu_items a:hover{
+ 	background-color: #ebebe0;
+ }
+
+
+
+ /* navbar content*/
+ .navbar_contentprofile{
+ 	width:650px;
+ 	height:50px;
+ 	position: absolute;
+ 	left:25%;
+ 	margin:20px;
+ }
+
+ .navbar_contentprofile a{
+ 	padding:8px 25px;
+ 	text-decoration: none;
+ 	background-color:black;
+ 	color: orange;
+ 	border-radius:0px;
+ 	display: inline-block;
+ 	box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.2);
+
+
+ }
+.navbar_contentprofile a:hover{
+	box-shadow: 0px 0px 20px 0px white;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	float:left;
+}
+
+h1:hover{
+	box-shadow: 0px 0px 40px 0px white;
+}
+
+
+
+
+/*uesr profile body*/
+.user_profile_body{
+	width:100%;
+	height:350px;
+	margin:5px;
+	top:520px;
+	background-color:white;
+	position: absolute;
+	border: none;
+	box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.2);
+	z-index:-1;
+}
+
+.user_profile_body2{
+	width:100%;
+	height:300px;
+	top:850px;
+	background-color:white;
+	position: absolute;
+	border: none;
+	box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.2);
+	z-index:-1;
+}
+.user_profile_body3{
+	width:100%;
+	height:300px;
+	top:1200px;
+	background-color:white;
+	position: absolute;
+	border: none;
+	box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.2);
+	z-index:-1;
+}
+.trek{
+	background-color: white;
+	margin-left:10px;
+	width:380px;
+	height:220px;
+	/*border-radius:10px;*/
+	box-shadow: 0px 0px 10px 0px rgb(0,0,0,2.2);
+}
+.trekname{
+	position:relative;
+	bottom:0%;
+
+}
+
+
+
+/* user footer*/
+.bottom_footer{
+	width:100%;
+	height:200px;
+	margin-top: 1050px;
+	background-color:gray;
+	border-radius: 5px;
+	box-shadow: 0px 0px 16px 0px rgb(0,0,0,1.2);
+	bottom: 0%;
+}
+
+.loginbutton{
+	padding:8px;
+	margin:10px;
+	background-color: black;
+	color:white;
+	font-size:15;
+	border:none;
+	font-weight: bold;
+	border-radius: 2px;
+}
+.regbutton{
+	border-color:black;
+	padding:8px;
+	margin:10px;
+	color:white;
+	background-color: orange;
+	font-size:15;
+	font-weight: bold;
+	border-radius: 2px;
+	
+}
+
+.loginbutton:hover{
+	box-shadow: 0px 0px 16px 0px white;
+}
+
+.regbutton:hover{
+	box-shadow: 0px 0px 16px 0px white;
+}
+.login_register_container{
+	/*background-image: url("male.jpeg");*/
+	border-radius:50px;
+	position: absolute;
+	right:0%;
+	margin:15px 25px 10px 10px;
+}
+
+.org_subscribe {
+	padding:8px;
+	margin:5px;
+	background-color: #ff3333;
+	color:white;
+	font-size:15;
+	border:none;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+.more{
+	top:0;
+	right:0;
+	position: absolute;
+	padding:8px;
+	margin:10px;
+	background-color:gray;
+	color:white;
+	font-size:15;
+	border:none;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+		 text-decoration: none;
+		 color:white;
+		 font-size:18 ;
+		 padding:10px 20px 0px 0px;
+		 /*background-color: red;*/
+	}
+	a:hover{
+		 box-shadow: 0px 0px 20px 0px white;
+
+	}
+	div.title{
+		width:100%;
+		height:50px;
+	}
+	#login{
+		border:none;
+		background-color:black;
+		padding:10px;
+		color:white;
+		opacity: 0.3;
+	}
+	#register{
+		border:none;
+		background-color:black;
+		padding:10px;
+		color:white;
+	}
+	#login:hover{
+		border:none;
+		background-color:orange;
+		padding:10px;
+		color:white;
+	}
+	#register:hover{
+		border:none;
+		background-color:orange;
+		padding:10px;
+		color:white;
+	}
+	.parallax{ 
+		 background-image: url("terk1.jpg");
+    
+    height: 800px;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+    border-radius: 2px;
+    }
+    .parallax2{ 
+   	background-image: url("trek2.jpg");
+    height: 800px;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+    border-radius: 2px;
+    }
+    div.buttons1{
+    	top:200px;
+    	left:31%;
+    	position:absolute;
+    }
+    #explore{
+    	border:none;
+		background-color:red;
+		padding:15px 120px;
+		color:white;
+		box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+   		border-radius: 8px;
+   		margin-left: 80px;
+   		margin-bottom: 40px;
+   		font-size: 18;
+    }
+    #login1{
+    	border:none;
+		background-color:green;
+		padding:15px 150px;
+		color:white;
+		box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+   		border-radius: 8px;
+   		margin:10px;
+   		font-size: 18;
+    }
+    #register1{
+    	border:none;
+		background-color:blue;
+		padding:15px 150px;
+		color:white;
+		box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+    	border-radius: 8px;
+    	font-size: 18;
+    }
+    div.search_bar{
+    	position: absolute;
+    	left:30%;
+    	
+    }
+    #search_bar{
+    	border:none;
+		background-color:white;
+		padding:15px 150px;
+		color:gray;
+		box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+   		border-radius: 8px;
+   		margin:10px;
+   		font-size: 18;
+    }
+    #search_btn{
+    	border:none;
+		background-color:green;
+		padding:15px 50px;
+		color:white;
+		box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+   		border-radius: 8px;
+   		margin:10px;
+   		font-size: 18;
+    }
+    .subscribe{
+    	width:100%;
+    	margin-top:10px;
+    	background-color: white;
+    }
+    .email_s{
+    	position:absolute;
+    	left:30%;
+    }
+    #email_s{
+    	border:none;
+		background-color:white;
+		padding:12px 120px;
+		color:white;
+		box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+   		border-radius: 8px;
+   		margin:10px;
+   		font-size: 18;
+    }
+    #e_submit{
+    	border:none;
+		background-color:green;
+		padding:12px 40px;
+		color:white;
+		box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+   		border-radius: 8px;
+   		margin:10px;
+   		font-size: 18;
+    }
+

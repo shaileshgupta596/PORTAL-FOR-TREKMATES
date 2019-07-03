@@ -1,0 +1,94 @@
+.user_profile_body{
+	width:100%;
+	height:600px;
+	margin:5px;
+	margin-bottom: 50px;
+	top:520px;
+	background-color:white;
+	position: absolute;
+	border: none;
+	box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.2);
+	z-index:-1;
+}
+
+.user_profile_body2{
+	width:100%;
+	height:300px;
+	top:1100px;
+	background-color:white;
+	position: absolute;
+	border: none;
+	box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.2);
+	z-index:-1;
+}
+.trek{
+	background-color: white;
+	margin-top: 40px;
+	margin-left:10px;
+	width:380px;
+	height:220px;
+	/*border-radius:10px;*/
+	box-shadow: 0px 0px 10px 0px rgb(0,0,0,2.2);
+}
+
+div.search_bar{
+    	position: absolute;
+    	left:20%;
+    	
+    }
+
+.subscribe{
+    	width:100%;
+    	position: absolute;
+    	top:1700px;
+    	background-color: white;
+    }
+
+div.map{
+	width:100%;
+    	position: absolute;
+    	top:2000px;
+    	background-color: white;
+}
+
+#search_bar{
+    	border:none;
+		background-color:white;
+		padding:15px 100px;
+		color:gray;
+		box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+   		border-radius: 8px;
+   		margin:10px;
+   		font-size: 18;
+    }
+    #search_btn{
+    	border:none;
+		background-color:green;
+		padding:12px 30px;
+		color:white;
+		box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+   		border-radius: 8px;
+   		margin:10px;
+   		font-size: 18;
+    }
+
+    #email_s{
+    	border:none;
+		background-color:white;
+		padding:12px 50px;
+		color:white;
+		box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+   		border-radius: 8px;
+   		margin:10px;
+   		font-size: 18;
+    }
+    #e_submit{
+    	border:none;
+		background-color:green;
+		padding:10px 30px;
+		color:white;
+		box-shadow: 0px 3px 10px 0px rgb(0,0,0,0.9);
+   		border-radius: 8px;
+   		margin:10px;
+   		font-size: 18;
+    }
